@@ -1,0 +1,75 @@
+.education{
+    min-height: 100vh;
+    padding:5rem 9% 5rem
+}
+
+
+.education h1{
+    font-size:3rem;
+    font-weight:700;
+    line-height:1.3;
+    margin-top: 14rem;
+}
+.education p{
+    margin-top:3rem;
+    margin-bottom:5rem;
+    justify-self: center;
+    width: 70vw;
+    font-size:1.2rem;
+    font-weight:700;
+    line-height:1.3;
+}
+
+/* education Section Container */
+.education-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Heading Styling */
+  .education-section h2 {
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  /* education Table Styling */
+  .education-table {
+    width: 100%;
+    border-collapse: collapse; /* Removes spacing between table cells */
+    margin: 20px 0;
+    text-align: left; /* Align text to the left */
+  }
+  
+  .education-table th,
+  .education-table td {
+    padding: 12px 15px; /* Adds padding inside cells */
+    border: 1px solid #dddddd; /* Light gray border */
+  }
+
+  .education-table th{
+    font-size: 2rem;
+  }
+  .education-table td {
+    font-size: 1.5rem;
+  }
+  
+  .education-table th {
+    background-color: #f8f9fa; /* Light gray header background */
+    color: #333333; /* Dark gray text */
+    font-weight: bold;
+  }
+  
+  .education-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray background for even rows */
+  }
+  
+  .education-table tr:hover {
+    background-color: #eaf4ff; /* Light blue background on hover */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
